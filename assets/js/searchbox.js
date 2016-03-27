@@ -14,7 +14,6 @@ $(function(){
             $(".toc-link").hide();
             $(".toc-link").each(function(){
                 var htmlstr = $(this).html().toLowerCase();
-				debugger;
                 if(htmlstr.indexOf(text) != -1){
                     $(this).show();
                 }

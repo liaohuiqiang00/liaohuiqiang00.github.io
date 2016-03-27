@@ -1,0 +1,35 @@
+# Site settings
+title: liaohuiqiang00
+email: 837277905@qq.com
+description: "liaohuiqiang's blog"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'tag'
+
+
+# Social account
+# twitter:  username
+# weibo:    ID
+github: liaohuiqiang00
+# codepen:  username
+# dribbble: username
+
+
+# Comment
+# disqus_shortname: discussion_shortname
+
+
+# Google Analytics
+# google_analytics: tracking_ID
+
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+gems:
+  - jekyll-sitemap

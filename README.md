@@ -2,4 +2,4 @@
 <br/>
 源于：<a href="https://github.com/P233/3-Jekyll">Peiwen Lu的主题模板</a>
 <br/>
-参考：<a href="https://github.com/coolnameismy/coolnameismy.github.io">刘彦玮的博客</a>
+参考：<a href="https://github.com/coolnameismy/coolnameismy.github.io">刘彦玮的博客</a> (搜索功能的增加）

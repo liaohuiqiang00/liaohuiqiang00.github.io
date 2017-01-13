@@ -1,11 +1,14 @@
 ---
 layout: post
 title:  《程序是怎样跑起来的》读书笔记
-tags: 计算机科学
+tags: 读书笔记
 ---
+
+<img src="/assets/img/howProgramWorks/cover.jpg" style="width:400px;height:400px;margin:0 auto;"/>
 
 * content
 {:toc}
+
 
 ### 1：源文件、可执行文件、二进制
 

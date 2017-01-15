@@ -131,3 +131,28 @@ int Count(uint32 x) {
 }
 {% endhighlight %}
 
+### 解法9：位标志法
+
+**思路：** <br/>
+  建一个字节结构的结构体，取输入参数的地址，然后按bit取值相加，即为1的个数。以1个字节的数据为例。
+
+**代码清单**
+{% highlight c %}
+struct _byte
+{
+   unsigned a:1;
+   unsigned b:1;
+   unsigned c:1;
+   unsigned d:1;
+   unsigned e:1;
+   unsigned f:1;
+   unsigned g:1;
+   unsigned h:1;
+};
+
+int Count(unsigned char x)
+{
+struct _byte *by = (struct _byte*)&x;
+cout <<  by->a + by->b + by->c + by->d + by->e +by->f +by->g + by->h << endl;
+}
+{% endhighlight %}

@@ -6,6 +6,7 @@ title: Welcome to my blog
 ### 关于我
 * 廖辉强
 * SCAU 2013级 软件工程
+* SCUT 2017级　计算机技术
 
 ### 联系我
 * email：[837277905@qq.com](mailto:{{ site.email }})
